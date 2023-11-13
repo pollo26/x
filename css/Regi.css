@@ -1,0 +1,61 @@
+/*----------------------------------------------fotmulario--------------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0a0a23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  form {
+    background-color: #1b1b32;
+    display: flex;
+
+    flex-direction: column;
+    padding: 50px;
+    width: 420px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.2);
+    text-align: center;
+  }
+  form h2 {
+    font-size: 30px;
+    color:#f5f6f7;
+    margin-bottom: 35px;
+  }
+  input {
+    padding: 17px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #603452;
+    margin-bottom: 30px;
+    outline: none;
+    color: #f5f6f7;
+    font-size: 16px;
+  }
+  ::placeholder{
+    color: #89879B;
+  }
+  .btn{
+    background-color:  #E53854;
+    border: 2px solid #E53854;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #603452;
+    border: 2px solid #615151;
+    }
+     @media (max-width:991px){
+      body {
+        padding: 30px; 
+      }
+      form{
+        width:340px;
+      }
+     }
